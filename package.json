@@ -2,13 +2,18 @@
   "name": "codevector-task",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
+    "seed": "node scripts/seedProducts.js",
     "build": "next build",
     "start": "next start",
+    "d":"node lib/db.js",
     "lint": "eslint"
   },
   "dependencies": {
+    "@next/env": "^16.2.9",
+    "mongoose": "^9.7.2",
     "next": "16.2.9",
     "react": "19.2.4",
     "react-dom": "19.2.4"
