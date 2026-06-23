@@ -14,7 +14,7 @@ const seedProducts = async () => {
     console.log("Existing products deleted");
 
     const products = [];
-    for (let i = 1; i < totalProducts; i++) {
+    for (let i = 1; i <= totalProducts; i++) {
         products.push({
             name: `Product ${i}`,
             category: categories[Math.floor(Math.random() * categories.length)],

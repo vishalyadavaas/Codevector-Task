@@ -8,7 +8,6 @@
     "seed": "node scripts/seedProducts.js",
     "build": "next build",
     "start": "next start",
-    "d":"node lib/db.js",
     "lint": "eslint"
   },
   "dependencies": {
